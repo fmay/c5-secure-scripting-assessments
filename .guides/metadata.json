@@ -1,0 +1,125 @@
+{
+ "sections": [
+  {
+   "id": "5bf1d22d-0ac5-11ed-2c05-0e0761b80505",
+   "title": "Question 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Question-1-5bf1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "3bb6bd0e-87aa-ac68-be35-0cff64a4c1ea",
+   "title": "Question 2",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "Q2/frame.sh",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "Q2"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Question-2-3bb6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "b0c11c2a-239f-9ad5-fca5-27b2520442c1",
+   "title": "Question 3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Question-3-b0c1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ebfa03d0-1c29-1f7a-de47-bfb05e0b66c8",
+   "title": "Lab Exercise 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Lab-Exercise-1-ebfa.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "387ab72d-fc26-58e2-eae9-63f510d3523c",
+   "title": "Part 1",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Part-1-387a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "f5c53de6-f0a9-3e42-f89d-a70143466cf0",
+   "title": "Part 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Part-2-f5c5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "93a43bff-7fef-16cf-7e4a-dd033e033faf",
+   "title": "Part 3",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [
+    "le1"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Part-3-93a4.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "hideMenu": false
+}

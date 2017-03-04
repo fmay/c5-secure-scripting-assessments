@@ -1,0 +1,175 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2862827275",
+  "source": {
+   "name": "Q1",
+   "showName": false,
+   "instructions": "In which of the following would scripting be more appropriate than writing a compiled program?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "0f234b36-7207-c214-b104-9506e1254e4b",
+     "correct": false,
+     "answer": "You need to carry out a computation that requires high performance, and must be as quick as possible."
+    },
+    {
+     "_id": "84533260-8e2c-2117-2419-03a1943a8162",
+     "correct": true,
+     "answer": "You need to carry out an administrative task repeatedly, and the task does not require maximum\nefficiency."
+    },
+    {
+     "_id": "3870a47b-727f-95f5-2975-a956ce9ef7e4",
+     "correct": false,
+     "answer": "Your task requires the use of several specialized libraries (modules) that have interfaces designed for programs written in C (Java)."
+    },
+    {
+     "_id": "acb2126f-413e-d7cf-e168-5dcdc7dcbe28",
+     "correct": false,
+     "answer": "Your computational task requires use of a low-level resource."
+    }
+   ]
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-1160140242",
+  "source": {
+   "name": "Q2",
+   "showName": false,
+   "preExecuteCommand": "cd Q2",
+   "command": "cd Q2 && ~/workspace/Q2/frame.sh",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": false,
+    "ignoreNewline": false,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "No file specified\n"
+    },
+    {
+     "arguments": "test.txt",
+     "input": "",
+     "output": "test.txt:\nMary had a little lamb\nWhose fleece was white as snow"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2008140110",
+  "source": {
+   "name": "Q3",
+   "showName": false,
+   "instructions": "What does the line `#! /bin/sh` mean?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "b0920f7d-8e25-27ab-12b9-795c03bb310c",
+     "correct": false,
+     "answer": "The script is named `/bin/sh`"
+    },
+    {
+     "_id": "1d49ede0-d45d-e2fb-a59a-57134e1c5e64",
+     "correct": false,
+     "answer": "Nothing; as the first character is `#`, this line is a comment"
+    },
+    {
+     "_id": "d20dac30-ac0d-a03d-c819-638537a9ba5d",
+     "correct": true,
+     "answer": "When the script is run, it is to be interpreted by the program `/bin/sh`"
+    },
+    {
+     "_id": "80c419c5-288b-0f0f-b9c5-d253f3314655",
+     "correct": false,
+     "answer": "It should be the last line in the script, and causes the script to exit cleanly."
+    }
+   ]
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-1093466040",
+  "source": {
+   "name": "LE1A",
+   "showName": false,
+   "instructions": "On the left is a dictionary file. ",
+   "points": "1",
+   "showValues": false,
+   "text": "This file is a <<<text>>> file. It contains <<<1>>> words (write the number not a word) per line.\n\n",
+   "tokens": {
+    "blank": [
+     "text",
+     "1"
+    ],
+    "text": [
+     "This file is a ",
+     0,
+     " file. It contains ",
+     0,
+     " words (write the number not a word) per line.\n\n"
+    ]
+   }
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-908132670",
+  "source": {
+   "name": "LO1P2",
+   "showName": true,
+   "instructions": "Look up the program grep. What arguments would you give it to look for the string “gry” in dict.txt?",
+   "points": "1",
+   "showValues": false,
+   "text": "Enter the command to look for the string `gry` in `dict.txt`.\n\n<<<grep 'gry' dict.txt>>>",
+   "tokens": {
+    "blank": [
+     "grep 'gry' dict.txt"
+    ],
+    "text": [
+     "Enter the command to look for the string `gry` in `dict.txt`.\n\n",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2713811071",
+  "source": {
+   "name": "LEP3",
+   "showName": false,
+   "preExecuteCommand": "",
+   "command": "cd ~/workspace/le1 && sh lookfor1.sh",
+   "points": 1,
+   "oneTimeTest": false,
+   "instructions": "",
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "agrypnia\nagrypnode\narthrogryposis\ngrylle\ngrypanian\ngryph\ngryposis\npuggry"
+    }
+   ]
+  }
+ }
+]

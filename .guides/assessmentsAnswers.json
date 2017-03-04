@@ -1,0 +1,166 @@
+[
+ {
+  "taskId": "code-output-compare-1160140242",
+  "points": 1,
+  "results": [
+   {
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"No file specified\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"test.txt:\\nMary had a little lamb\\nWhose fleece was white as snow\"}]}",
+    "timestamp": 1488624847379
+   },
+   {
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"No file specified\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"test.txt:\\nMary had a little lamb\\nWhose fleece was white as snow\"}]}",
+    "timestamp": 1488624693662
+   },
+   {
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"No file specified\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"test.txt:\\nMary had a little lamb\\nWhose fleece was white as snow\"}]}",
+    "timestamp": 1488624640697
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"No file specified\\n\"}, {\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"test.txt:\\n/home/codio/workspace/Q2\\nMary had a little lamb\\nWhose fleece was white as snow\"}]}",
+    "timestamp": 1488624624470
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"No file specified\\n\"}, {\"returnCode\": 1, \"stderr\": \"cat: test.txt: No such file or directory\\n\", \"passed\": false, \"stdout\": \"test.txt:\\n/home/codio/workspace\\n\"}]}",
+    "timestamp": 1488624578987
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"No file specified\\n\"}, {\"returnCode\": 1, \"stderr\": \"cat: test.txt: No such file or directory\\n\", \"passed\": false, \"stdout\": \"test.txt:\\n\"}]}",
+    "timestamp": 1488624545199
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"No file specified\\n\"}, {\"returnCode\": 1, \"stderr\": \"cat: test.txt: No such file or directory\\n\", \"passed\": false, \"stdout\": \"test.txt:\\n\"}]}",
+    "timestamp": 1488624472272
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"No arguments supplied\\n\"}, {\"returnCode\": 1, \"stderr\": \"cat: test.txt: No such file or directory\\n\", \"passed\": false, \"stdout\": \"test.txt:\\n\"}]}",
+    "timestamp": 1488624411438,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-2008140110",
+  "points": 1,
+  "state": {
+   "active": "d20dac30-ac0d-a03d-c819-638537a9ba5d"
+  },
+  "results": [
+   {
+    "current": [
+     "d20dac30-ac0d-a03d-c819-638537a9ba5d"
+    ],
+    "right": [
+     "d20dac30-ac0d-a03d-c819-638537a9ba5d"
+    ],
+    "timestamp": 1488625039914
+   }
+  ]
+ },
+ {
+  "taskId": "fill-in-the-blanks-1093466040",
+  "points": 1,
+  "state": {
+   "active": [
+    "texT",
+    "1"
+   ]
+  },
+  "results": [
+   {
+    "current": [
+     "texT",
+     "1"
+    ],
+    "right": [
+     "text",
+     "1"
+    ],
+    "timestamp": 1488625590099
+   }
+  ]
+ },
+ {
+  "taskId": "fill-in-the-blanks-908132670",
+  "points": 1,
+  "state": {
+   "active": [
+    "grep 'gry' dict.txt"
+   ]
+  },
+  "results": [
+   {
+    "current": [
+     "grep 'gry' dict.txt"
+    ],
+    "right": [
+     "grep 'gry' dict.txt"
+    ],
+    "timestamp": 1488629590230
+   }
+  ]
+ },
+ {
+  "taskId": "code-output-compare-2713811071",
+  "points": 0,
+  "results": [
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1488629608560
+   },
+   {
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"agrypnia\\nagrypnode\\narthrogryposis\\ngrylle\\ngrypanian\\ngryph\\ngryposis\\npuggry\\n\"}]}",
+    "timestamp": 1488629601366
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": false, \"stdout\": \"agrypnia\\nagrypnode\\n\"}]}",
+    "timestamp": 1488629166983
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 127, \"stderr\": \"/bin/sh: 1: lookfor1.sh: not found\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1488629138990
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 127, \"stderr\": \"/bin/sh: 1: lookfor1.sh: not found\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1488629061017
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 1, \"stderr\": \"\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1488628982885
+   },
+   {
+    "code": 0,
+    "output": "{\"sequence\": [{\"returnCode\": 0, \"stderr\": \"\", \"passed\": true, \"stdout\": \"agrypnia\\nagrypnode\\narthrogryposis\\ngrylle\\ngrypanian\\ngryph\\ngryposis\\npuggry\\n\"}]}",
+    "timestamp": 1488628971193
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 127, \"stderr\": \"/bin/sh: 1: lookfor1.sh: not found\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1488628946791
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 127, \"stderr\": \"/bin/sh: 1: lookfor1.sh: not found\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1488628823777
+   },
+   {
+    "code": 2,
+    "output": "{\"sequence\": [{\"returnCode\": 127, \"stderr\": \"/bin/sh: 1: lookfor1.sh: not found\\n\", \"passed\": false, \"stdout\": \"\"}]}",
+    "timestamp": 1488628780046
+   }
+  ]
+ }
+]
