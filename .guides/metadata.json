@@ -78,7 +78,18 @@
   {
    "id": "387ab72d-fc26-58e2-eae9-63f510d3523c",
    "title": "Part 1",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "le1/dict.txt",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Part-1-387a.md",
@@ -121,5 +132,5 @@
  "scripts": [],
  "lexikonTopic": "",
  "suppressPageNumbering": false,
- "hideMenu": false
+ "hideMenu": true
 }

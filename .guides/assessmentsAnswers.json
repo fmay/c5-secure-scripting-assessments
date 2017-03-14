@@ -48,44 +48,19 @@
  },
  {
   "taskId": "multiple-choice-2008140110",
-  "points": 1,
+  "points": 0,
   "state": {
-   "active": "d20dac30-ac0d-a03d-c819-638537a9ba5d"
+   "active": null
   },
-  "results": [
-   {
-    "current": [
-     "d20dac30-ac0d-a03d-c819-638537a9ba5d"
-    ],
-    "right": [
-     "d20dac30-ac0d-a03d-c819-638537a9ba5d"
-    ],
-    "timestamp": 1488625039914
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "fill-in-the-blanks-1093466040",
-  "points": 1,
+  "points": 0,
   "state": {
-   "active": [
-    "texT",
-    "1"
-   ]
+   "active": []
   },
-  "results": [
-   {
-    "current": [
-     "texT",
-     "1"
-    ],
-    "right": [
-     "text",
-     "1"
-    ],
-    "timestamp": 1488625590099
-   }
-  ]
+  "results": []
  },
  {
   "taskId": "fill-in-the-blanks-908132670",

@@ -18,7 +18,7 @@
     {
      "_id": "84533260-8e2c-2117-2419-03a1943a8162",
      "correct": true,
-     "answer": "You need to carry out an administrative task repeatedly, and the task does not require maximum\nefficiency."
+     "answer": "You need to carry out an administrative task repeatedly, and the task does not require maximum efficiency."
     },
     {
      "_id": "3870a47b-727f-95f5-2975-a956ce9ef7e4",
@@ -129,8 +129,8 @@
   "taskId": "fill-in-the-blanks-908132670",
   "source": {
    "name": "LO1P2",
-   "showName": true,
-   "instructions": "Look up the program grep. What arguments would you give it to look for the string “gry” in dict.txt?",
+   "showName": false,
+   "instructions": "Look up the `grep` command on the Web. What arguments would you give it to look for the string “gry” in `dict.txt`?",
    "points": "1",
    "showValues": false,
    "text": "Enter the command to look for the string `gry` in `dict.txt`.\n\n<<<grep 'gry' dict.txt>>>",
